@@ -76,10 +76,9 @@ This separation allows **fine-grained control based on visibility state**:
 ---
 
 ## Runtime Flow
-- Each room contains a **trigger volume**  
-- When the player enters a room:  
-  1. The `Room_Manager` is notified  
-  2. Visibility states are updated based on **predefined room relationships**  
-  3. Rooms are enabled or disabled instantly  
+- Each room has a **trigger volume**  
+- On player entry:  
+  - Visibility states are updated based on **predefined room relationships**  
+  - Rooms are enabled or disabled instantly
 
 **No continuous visibility checks are performed.**
