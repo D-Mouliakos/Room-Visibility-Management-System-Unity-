@@ -65,6 +65,7 @@ Each Room GameObject contains **two child objects**:
     │   ├── Walls / Floor / Ceiling
     │   └── Lights that can affect other rooms
     └── Furnitures
+        └── Room Collider (gameObject)
         └── Props and decorative objects
 
 This separation allows **fine-grained control based on visibility state**:  
