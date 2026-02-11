@@ -69,6 +69,7 @@ Each Room GameObject contains **two child objects**:
 
 This separation allows **fine-grained control based on visibility state**:  
 
+- `FULL_VISIBLE` → both children enabled  
 - `PARTIAL_VISIBLE` → only `Lights&Walls` enabled  
 - `INVISIBLE` → both children disabled  
 
