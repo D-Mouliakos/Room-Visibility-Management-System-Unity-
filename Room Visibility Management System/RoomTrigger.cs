@@ -67,4 +67,5 @@ public class RoomTrigger : MonoBehaviour
             roomManager.EnterRoom(linkedRoom);
         }
     }
+
 }
