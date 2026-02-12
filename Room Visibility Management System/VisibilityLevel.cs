@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 
 // ==========================================================================================
 // VisibilityLevel.cs
@@ -29,4 +25,5 @@ public enum VisibilityLevel
     /// The room is fully visible. Both interior and lights/walls are enabled.
     /// </summary>
     FULL_VISIBLE
+
 }
