@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -109,4 +108,5 @@ public class AmbientController : MonoBehaviour
         // Apply final color (ensures exact target)
         characterSharedMaterial.SetColor("_EmissionColor", targetColor * emissionIntensity);
     }
+
 }
